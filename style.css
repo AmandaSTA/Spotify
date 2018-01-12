@@ -1,0 +1,151 @@
+*{
+	margin:0;
+	padding: 0;
+	padding-right: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+nav{
+	background-color: rgba(0,0,0, 0.6);
+	height: 105px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
+nav ul{
+	float: right;
+	margin-right: 160px;
+	margin-top: 40px; 
+}
+
+nav ul li{
+	float: left;
+	list-style-type: none;
+	color: white;
+	margin-right: 40px;
+	font-size: 20px;
+}
+
+li a{
+	color:white;
+}
+
+nav li a:hover{
+	color: #57b55f;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	color: white;
+	padding-top: 350px; 
+	padding-left: 500px;
+	background-image: url(img/bkg1.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 300px;
+}
+
+.logo{
+	width: 175px;
+	margin-left: 180px;
+	margin-top: 25px;
+}
+
+.slogan{
+	font-size:80px;
+	margin-bottom: 300px;
+	margin-left: 20px;
+	text-align: center;
+}
+
+.btn{
+	color:white;
+	border-radius: 50px;
+	height: 70px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 0;
+}
+
+.btn-verde{
+	background-color:#57b55f;
+	width: 550px;
+	margin-right: 5px;
+}
+
+.btn-verde:hover{
+	background-color: black;
+	color: white;
+}
+
+.btn-branco{
+	background-color: rgba(0,0,0,0);
+	border: 2px solid white;
+	width: 420px;
+}
+
+.btn-branco:hover{
+	background-color: white;
+	color: black;
+}
+
+.texto {
+width: 350px;
+float: left;;
+margin-right: 100px; 
+margin-left: 190px;  
+}
+
+h2{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.imagem{
+	width: 100%;
+	height: 100%;
+	margin-left: 100px;}
+
+.bkg2{
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+	padding-right: 0;
+
+}
+
+.parte3{
+	margin-left: 2000px;
+	margin-top: 260px;
+}
+
+h4{
+	font-size: 120px;
+	color: white;
+	font-style: bold;
+}
+
+h5{
+	font-size: 70px;
+	color: white;
+	font-style: bold;
+}
+
+.paragrafo{
+	font-size: 50px;
+	color: white;
+}
